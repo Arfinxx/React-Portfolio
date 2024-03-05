@@ -2,27 +2,36 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import projectList from "../../../util/projectList.json"
 
 function Projects() {
   return (
+    <>
+    <h1 className='text-center pt-5 pb-5'>Projects.</h1>
+
     <Row xs={1} md={2} className="g-4">
-      {Array.from({ length: 4 }).map((_, idx) => (
-        <Col key={idx}>
+      {projectList.map((project, id) => (
+        <Col key={id}>
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Img variant="top" src={project.screenshot} />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
+              <Card.Title>{project['project-title']}</Card.Title>
               <Card.Text>
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                <Card.Link target='_blank' href={project['deployed-link']}>Deployed Link</Card.Link>
+                <Card.Link target='_blank' href={project['repo-link']}>Repository Link</Card.Link>
+
               </Card.Text>
             </Card.Body>
           </Card>
         </Col>
+        
       ))}
+      
     </Row>
-  );
+
+ </> );
+
+
 }
 
 export default Projects;

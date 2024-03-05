@@ -1,8 +1,9 @@
 import React from 'react';
-import { CardText } from 'react-bootstrap';
+import { CardImgOverlay, CardText } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Image from 'react-bootstrap/Image';
+import personal from '../../../util/personal.json';
 
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
     <Card>
       
       <Card.Body>
+      
         <div className='d-flex justify-content-center'>
         <Image src="src\assets\Portrait.jpg" fluid rounded style={{"width": "300px"}} />
         </div>
@@ -20,8 +22,8 @@ const Home = () => {
         <hr/>
         <CardText>This webpage showcases my recent web-development projects and skills.</CardText>
        <div className='d-flex justify-content-center'>
-       <Button className='m-1' variant="primary">Projects</Button>
-      <Button className='m-1' variant="secondary">Github Profile</Button>
+       <Button className='m-1' variant="primary" href='projects'>Projects</Button>
+      <Button className='m-1' variant="secondary" href={personal['github-link']} target="_blank">Github Profile: {personal['github-username']}</Button>
       </div>
       </Card.Body>
         
