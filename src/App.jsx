@@ -5,6 +5,8 @@ import NavbarComponent from './components/NavBar/Navbar';
 import Home from './components/Pages/Home/home';
 import Projects from './components/Pages/Projects/Projects';
 import Skills from './components/Pages/Skills/skills';
+import About from './components/Pages/AboutMe/About/about';
+import Contact from './components/Pages/AboutMe/Contact/contact';
 
 function App() {
 
@@ -16,8 +18,9 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="projects" element={<Projects />} />
       <Route path="skills" element={<Skills />} />
+        <Route path="about" element={<About />} />
+        <Route path="contact" element={<Contact />} /> 
       </Routes>
-      <script src="https://kit.fontawesome.com/bbd1d234aa.js" crossorigin="anonymous"></script>
 
     </Router>
   )

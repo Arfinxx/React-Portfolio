@@ -16,10 +16,8 @@ const NavbarComponent = () => {
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="Projects">Projects</Nav.Link>
             <Nav.Link href="Skills">Skills</Nav.Link>
-            <NavDropdown title="About Me" id="collapsible-nav-dropdown">
-              <NavDropdown.Item href="About">About</NavDropdown.Item>
-              <NavDropdown.Item href="Contact">Contact</NavDropdown.Item>
-            </NavDropdown>
+            <Nav.Link href="about">About</Nav.Link>
+            <Nav.Link href="contact">Contact</Nav.Link>
           </Nav>
           <Nav>
           <NavDropdown title="Social media" id="collapsible-nav-dropdown">
