@@ -1,0 +1,55 @@
+[
+    {
+        "id": 0,
+        "skillName": "GitHub",
+        "caption": "Use of GitHub and maintaining repositories to a professional standard."
+    },
+    
+    {
+        "id": 1,
+        "skillName": "GitLab",
+        "caption": "Taking pulls from GitLab."
+    },
+    
+    {
+        "id": 2,
+        "skillName": "HTML5",
+        "caption": "Use of HTML to create webpage content/structure."
+    },
+    
+    {
+        "id": 3,
+        "skillName": "CSS 3",
+        "caption": "Use of CSS in stylesheets to give HTML webpages styling."
+    },
+    
+    {
+        "id": 4,
+        "skillName": "Bootstrap",
+        "caption": "Use and modification of the Bootstrap library and documentation to create professional webpage components."
+    },
+
+    {
+        "id": 5,
+        "skillName": "JavaScript/ES6",
+        "caption": "Use of JS to add functionality to webpage applications."
+    },
+    
+    {
+        "id": 6,
+        "skillName": "Node.js",
+        "caption": "Understanding and ability to use Node.js to test and run javascript files in Node."
+    },
+    
+    {
+        "id": 7,
+        "skillName": "React.js",
+        "caption": "Use of react to create single page applications in a modular and optimised manner."
+    },
+    
+    {
+        "id": 8,
+        "skillName": "More to come",
+        "caption": "As I learn more skills they will be listed here."
+    }
+]

@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import personal from '../../util/personal.json';
 
 const NavbarComponent = () => {
   return (
@@ -22,10 +23,10 @@ const NavbarComponent = () => {
           </Nav>
           <Nav>
           <NavDropdown title="Social media" id="collapsible-nav-dropdown">
-              <NavDropdown.Item href="#pleasefix">Linkedin</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">GitHub</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Email</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Download CV</NavDropdown.Item>
+              <NavDropdown.Item target='_blank' href={personal['linkedin-link']}>Linkedin</NavDropdown.Item>
+              <NavDropdown.Item target='_blank' href={personal['github-link']}>GitHub</NavDropdown.Item>
+              <NavDropdown.Item target='_blank' href={personal.email}>Email</NavDropdown.Item>
+              <NavDropdown.Item target='_blank' href={personal.cv}>Download CV</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
