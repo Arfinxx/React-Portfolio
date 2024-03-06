@@ -1,8 +1,21 @@
-# React + Vite
+# React Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This Web portfolio application uses the react framework in conjunction with the react router npm package to create a dynamic single page application. It contains links to some past projects aswell as links to, my github profile and linked in. it also allows you dto download a copy of my CV and helps to disply my skills and experience. It uses react-bootstrap for component styling and structure. Furthermore, data has been stored and organised in various json files which is then retrived as an array and iterated over using the map fucntion to create dynamic components. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+It has been deployed on Github pages (Not Working):
+
+https://arfinxx.github.io/React-Portfolio/
+
+
+## Usage 
+
+Here is a screenshot of the projects page:
+
+![Projects page screenshot](src/assets/Screenshot%202024-03-06%20001205.png)
+
+
+## License
+
+MIT License in Repository
