@@ -11,6 +11,8 @@ https://arfinxx.github.io/React-Portfolio/
 
 ## Usage 
 
+make sure to clone the repository to your local environment and then install all the npm packages by typing `npm i` in your CLI.
+
 Here is a screenshot of the projects page:
 
 ![Projects page screenshot](src/assets/Screenshot%202024-03-06%20001205.png)
