@@ -12,8 +12,8 @@ const About = () => {
       has provided the drive and passion to deepen my knowledge of coding and web-development. To see the other technical experience
        I have taken initiative over, please review my CV below. </p>
     
-            <button className="p-3 mt-4 btn btn-primary btn-lg" href={personal.cv} alt="Arfin Tajammal CV" target="_blank" download>
-              Arfin Tajammal CV</button>
+            <a className="p-3 mt-4 btn btn-primary btn-lg" href={personal.cv} alt="Arfin Tajammal CV" target="_blank" download>
+              Arfin Tajammal CV</a>
     </div>
 )}
 
